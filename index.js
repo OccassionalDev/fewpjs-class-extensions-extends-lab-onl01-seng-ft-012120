@@ -10,7 +10,7 @@ class Polygon {
   }
   
   get perimeter() {
-    return this.sides.reduce((a, currVal) => a + currVal);
+    return this.sides.reduce((a, v) => a + v);
   }
 }
 
@@ -40,5 +40,7 @@ class Square extends Polygon {
     return ((side1 === side2) && (side1 === side3) && (side1 === side4));
   }
   
-  
+  get perimeter() {
+    return this.sides.reduce((a, v) => a + v);
+  }
 }
