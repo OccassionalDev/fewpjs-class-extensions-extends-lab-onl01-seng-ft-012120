@@ -32,6 +32,11 @@ class Square extends Polygon {
     if (!Array.isArray(this.sides)) return false;
     if (this.countSides !== 4) return false;
     
-    return (this.sides.reduce((a, v) => a+v) !== this.sides[0]*4);
+    let side1 = this.sides[0];
+    let side2 = this.sides[1];
+    let side3 = this.sides[2];
+    let side4 = this.sides[3];
+    
+    return (side1 );
   }
 }
