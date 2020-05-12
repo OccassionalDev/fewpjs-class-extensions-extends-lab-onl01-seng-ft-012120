@@ -41,6 +41,12 @@ class Square extends Polygon {
   }
   
   get area() {
-    return this.sides[0]*this.sides[0];
+    if (this.isValid) {
+      return this.sides[0]*this.sides[0];
+    }
+    
+    else {
+      retirm false;
+    }
   }
 }
