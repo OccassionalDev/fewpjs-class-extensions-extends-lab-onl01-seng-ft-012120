@@ -9,7 +9,7 @@ class Polygon {
     return this.sides.length;
   }
   
-  get permiter() {
+  get perimeter() {
     return this.sides.reduce((a, currVal) => a + currVal);
   }
 }
