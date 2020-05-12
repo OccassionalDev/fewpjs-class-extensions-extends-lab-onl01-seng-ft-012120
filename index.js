@@ -14,6 +14,6 @@ class Polygon {
   }
 }
 
-class Square extends Polygon {
+class Triangle extends Polygon {
   
 }
