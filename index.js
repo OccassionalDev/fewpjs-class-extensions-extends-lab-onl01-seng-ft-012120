@@ -46,7 +46,7 @@ class Square extends Polygon {
     }
     
     else {
-      retirm false;
+      return false;
     }
   }
 }
