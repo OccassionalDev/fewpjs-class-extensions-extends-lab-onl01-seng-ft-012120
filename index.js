@@ -10,6 +10,6 @@ class Polygon {
   }
   
   get permiter() {
-    return this.sides.reduce(())
+    return this.sides.reduce((a, currVal) => a + currVal);
   }
 }
