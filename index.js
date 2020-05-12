@@ -31,5 +31,7 @@ class Square extends Polygon {
   get isValid() {
     if (!Array.isArray(this.sides)) return false;
     if (this.countSides !== 4) return false;
+    
+    return (this.sides.reduce((a, v) => a+v) !== this.sides[0]*4);
   }
 }
