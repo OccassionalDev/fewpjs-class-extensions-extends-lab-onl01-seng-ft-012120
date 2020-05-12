@@ -8,4 +8,8 @@ class Polygon {
   get countSides() {
     return this.sides.length;
   }
+  
+  get permiter() {
+    return this.sides.reduce(())
+  }
 }
