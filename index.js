@@ -40,7 +40,7 @@ class Square extends Polygon {
     return ((side1 === side2) && (side1 === side3) && (side1 === side4));
   }
   
-  get perimeter() {
+  get area() {
     return this.sides[0]*this.sides[0];
   }
 }
