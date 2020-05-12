@@ -19,6 +19,6 @@ class Triangle extends Polygon {
     if (!Array.isArray(this.sides)) return false;
     if (this.count !== 3) return false;
     
-    if ()
+    let side1 = this.sides[0]
   }
 }
