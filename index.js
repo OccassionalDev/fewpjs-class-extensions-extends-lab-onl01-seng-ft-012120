@@ -13,3 +13,7 @@ class Polygon {
     return this.sides.reduce((a, currVal) => a + currVal);
   }
 }
+
+class Square extends Polygon {
+  
+}
