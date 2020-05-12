@@ -41,6 +41,6 @@ class Square extends Polygon {
   }
   
   get perimeter() {
-    return this.sides.reduce((a, v) => a + v);
+    return this.sides[0]*this.sides[0];
   }
 }
